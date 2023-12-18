@@ -1,14 +1,14 @@
 modLoader="javafml"
 loaderVersion="*"
 license="All rights reserved"
-issueTrackerURL="https://github.com/ricksouth/serilum-mc-mods/labels/Mod:%20Full%20Brightness%20Toggle"
+issueTrackerURL="https://github.com/Serilum/.issue-tracker/labels/Mod:%20Full%20Brightness%20Toggle"
 logoFile="icon.png"
 
 [[mods]]
 modId="fullbrightnesstoggle"
-version="3.1"
+version="3.2"
 displayName="Full Brightness Toggle"
-displayURL="https://curseforge.com/minecraft/mc-mods/full-brightness-toggle"
+displayURL="https://serilum.com/mod/full-brightness-toggle"
 authors="Rick South"
 description='''[Client] Press G to instantly toggle the brightness/gamma in-game to full.
 '''
@@ -21,13 +21,15 @@ If you would like to contribute too, check out https://ricksouth.com/donate. App
 
 [[dependencies.fullbrightnesstoggle]]
     modId="collective"
+    type="required"
     mandatory=true
-    versionRange="[7.3,)"
+    versionRange="[7.21,)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.fullbrightnesstoggle]]
     modId="minecraft"
+    type="required"
     mandatory=true
     versionRange="[1.20.2]"
     ordering="NONE"
