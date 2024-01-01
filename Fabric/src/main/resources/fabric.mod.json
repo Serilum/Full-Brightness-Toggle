@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "fullbrightnesstoggle",
-  "version": "3.2",
+  "version": "4.0",
 
   "name": "Full Brightness Toggle",
   "description": "[Client] Press G to instantly toggle the brightness/gamma in-game to full.",
@@ -23,7 +23,7 @@
     "fabric": "*",
     "minecraft": ">=1.20",
     "java": ">=17",
-    "collective": ">=7.21"
+    "collective": ">=7.30"
   },
 
   "custom": {
