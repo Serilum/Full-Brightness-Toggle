@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "fullbrightnesstoggle",
-  "version": "3.3",
+  "version": "4.0",
 
   "name": "Full Brightness Toggle",
   "description": "[Client] Press G to instantly toggle the brightness/gamma in-game to full.",
