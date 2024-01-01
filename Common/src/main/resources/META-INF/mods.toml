@@ -6,7 +6,7 @@ logoFile="icon.png"
 
 [[mods]]
 modId="fullbrightnesstoggle"
-version="3.3"
+version="4.0"
 displayName="Full Brightness Toggle"
 displayURL="https://serilum.com/mod/full-brightness-toggle"
 authors="Rick South"
