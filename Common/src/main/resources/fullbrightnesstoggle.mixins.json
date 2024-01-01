@@ -1,8 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.natamus.fullbrightnesstoggle.neoforge.mixin",
-  "plugin": "com.natamus.collective.neoforge.mixin.plugin.NeoForgeMixinConfigPlugin",
+  "package": "com.natamus.fullbrightnesstoggle.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
 

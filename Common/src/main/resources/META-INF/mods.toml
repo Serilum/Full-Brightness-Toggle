@@ -6,7 +6,7 @@ logoFile="icon.png"
 
 [[mods]]
 modId="fullbrightnesstoggle"
-version="3.2"
+version="3.3"
 displayName="Full Brightness Toggle"
 displayURL="https://serilum.com/mod/full-brightness-toggle"
 authors="Rick South"
@@ -23,7 +23,7 @@ If you would like to contribute too, check out https://ricksouth.com/donate. App
     modId="collective"
     type="required"
     mandatory=true
-    versionRange="[7.21,)"
+    versionRange="[7.30,)"
     ordering="NONE"
     side="BOTH"
 
@@ -36,4 +36,4 @@ If you would like to contribute too, check out https://ricksouth.com/donate. App
     side="BOTH"
 
 [[mixins]]
-    config = "fullbrightnesstoggle_neoforge.mixins.json"
+    config = "fullbrightnesstoggle.mixins.json"
