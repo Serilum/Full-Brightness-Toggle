@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "fullbrightnesstoggle",
+  "version": "4.0",
+
+  "name": "Full Brightness Toggle",
+  "description": "[Client] Press G to instantly toggle the brightness/gamma in-game to full.",
+  "authors": [ "Rick South" ],
+  "contact": {
+    "homepage": "https://serilum.com/mod/full-brightness-toggle",
+    "sources": "https://github.com/Serilum/Full-Brightness-Toggle",
+    "issues": "https://github.com/Serilum/.issue-tracker/labels/Mod:%20Full%20Brightness%20Toggle"
+  },
+
+  "license": "All Right Reserved",
+  "icon": "icon.png",
+
+  "environment": "*",
+  "entrypoints": { "main": [ "com.natamus.fullbrightnesstoggle.ModFabric" ], "client": [ "com.natamus.fullbrightnesstoggle.ModFabricClient" ] },
+
+  "depends": {
+    "fabricloader": ">=0.12.5",
+    "fabric": "*",
+    "minecraft": ">=1.20",
+    "java": ">=17",
+    "collective": ">=7.53"
+  },
+
+  "custom": {
+    "modmenu": {
+      "links": {
+        "Donate <3" : "https://ricksouth.com/donate"
+      }
+    }
+  },
+
+  "contributors": [
+	  " ",
+	  "Thank you very much to my Membership sponsors for supporting the development of this mod!",
+	  " ",
+	  "If you would like to contribute too, check out https://serilum.com/donate.",
+	  " ",
+	  "Membership sponsors:",
+	  " Alister",
+	  " Andrean Olgo",
+	  " aternosorg",
+	  " BirdieMiner",
+	  " Cherriesaurus",
+	  " Jack",
+	  " Jeremy Langford",
+	  " Michael W. S.",
+	  " pepe1191",
+	  " Shana Gitnick",
+	  " Tyler Behl"
+  ]
+}
