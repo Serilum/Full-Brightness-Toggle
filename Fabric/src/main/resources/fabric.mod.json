@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "fullbrightnesstoggle",
-  "version": "4.0",
+  "version": "4.1",
 
   "name": "Full Brightness Toggle",
   "description": "[Client] Press G to instantly toggle the brightness/gamma in-game to full.",
@@ -23,7 +23,7 @@
     "fabric": "*",
     "minecraft": ">=1.20",
     "java": ">=21",
-    "collective": ">=7.55"
+    "collective": ">=7.71"
   },
 
   "custom": {
@@ -46,11 +46,9 @@
 	  " aternosorg",
 	  " BirdieMiner",
 	  " Cherriesaurus",
-	  " Jack",
-	  " Jeremy Langford",
 	  " Michael W. S.",
-	  " pepe1191",
 	  " Shana Gitnick",
+	  " Sukhmai",
 	  " Tyler Behl"
   ]
 }

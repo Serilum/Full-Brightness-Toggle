@@ -12,6 +12,10 @@ public class ToggleEvent {
 	private static final double maxGamma = 14.0F % 28.0F + 1.0F;
 
 	public static void onMainMenuLoaded() {
+		if (initialGamma >= 0) {
+			return;
+		}
+
 		Options options = mc.options;
 
 		initialGamma = GameSettingsFunctions.getGamma(options);
