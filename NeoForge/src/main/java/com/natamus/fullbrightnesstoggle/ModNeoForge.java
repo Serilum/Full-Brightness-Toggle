@@ -1,6 +1,7 @@
 package com.natamus.fullbrightnesstoggle;
 
 import com.natamus.collective.check.RegisterMod;
+import com.natamus.collective.check.ShouldLoadCheck;
 import com.natamus.fullbrightnesstoggle.neoforge.events.NeoForgeKeyMappingRegister;
 import com.natamus.fullbrightnesstoggle.neoforge.events.NeoForgeToggleEvent;
 import com.natamus.fullbrightnesstoggle.util.Reference;
@@ -16,6 +17,10 @@ import net.neoforged.neoforge.common.NeoForge;
 public class ModNeoForge {
 	
 	public ModNeoForge(IEventBus modEventBus) {
+		if (!ShouldLoadCheck.shouldLoad(Reference.MOD_ID)) {
+			return;
+		}
+
 		if (!FMLEnvironment.dist.equals(Dist.CLIENT)) {
 			return;
 		}
