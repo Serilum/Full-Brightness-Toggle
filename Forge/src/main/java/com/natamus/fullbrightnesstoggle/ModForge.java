@@ -1,6 +1,7 @@
 package com.natamus.fullbrightnesstoggle;
 
 import com.natamus.collective.check.RegisterMod;
+import com.natamus.collective.check.ShouldLoadCheck;
 import com.natamus.fullbrightnesstoggle.forge.events.ForgeKeyMappingRegister;
 import com.natamus.fullbrightnesstoggle.forge.events.ForgeToggleEvent;
 import com.natamus.fullbrightnesstoggle.util.Reference;
@@ -16,6 +17,10 @@ import net.minecraftforge.fml.loading.FMLEnvironment;
 public class ModForge {
 	
 	public ModForge() {
+		if (!ShouldLoadCheck.shouldLoad(Reference.MOD_ID)) {
+			return;
+		}
+
 		if (!FMLEnvironment.dist.equals(Dist.CLIENT)) {
 			return;
 		}
