@@ -5,9 +5,7 @@ import com.natamus.fullbrightnesstoggle.events.ToggleEvent;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.neoforge.client.event.InputEvent;
 import net.neoforged.bus.api.SubscribeEvent;
-import net.neoforged.fml.common.EventBusSubscriber;
 
-@EventBusSubscriber(Dist.CLIENT)
 public class NeoForgeToggleEvent {
 	@SubscribeEvent
 	public static void onKey(InputEvent.Key e) {

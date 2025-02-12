@@ -5,12 +5,10 @@ import com.natamus.fullbrightnesstoggle.events.ToggleEvent;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.InputEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 
-@EventBusSubscriber(Dist.CLIENT)
 public class ForgeToggleEvent {
 	@SubscribeEvent
-	public void onKey(InputEvent.Key e) {
+	public static void onKey(InputEvent.Key e) {
 		if (e.getAction() != 1) {
 			return;
 		}
