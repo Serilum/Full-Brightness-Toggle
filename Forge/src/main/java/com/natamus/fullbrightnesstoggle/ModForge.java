@@ -28,7 +28,7 @@ public class ModForge {
 		IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		modEventBus.addListener(this::loadComplete);
-		modEventBus.register(new ForgeKeyMappingRegister());
+		modEventBus.register(ForgeKeyMappingRegister.class);
 
 		setGlobalConstants();
 		ModCommon.init();
@@ -37,7 +37,7 @@ public class ModForge {
 	}
 
 	private void loadComplete(final FMLLoadCompleteEvent event) {
-    	MinecraftForge.EVENT_BUS.register(new ForgeToggleEvent());
+    	MinecraftForge.EVENT_BUS.register(ForgeToggleEvent.class);
 	}
 
 	private static void setGlobalConstants() {
