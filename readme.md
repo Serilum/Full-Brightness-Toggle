@@ -1,13 +1,13 @@
-<h2>Full Brightness Toggle</h2>
-<p><a href="https://github.com/Serilum/Full-Brightness-Toggle"><img src="https://serilum.com/assets/data/logo/full-brightness-toggle.png"></a></p><h2>Download</h2>
-<p>You can download Full Brightness Toggle on CurseForge and Modrinth:</p><p>&nbsp;&nbsp;CurseForge: &nbsp;&nbsp;<a href="https://curseforge.com/minecraft/mc-mods/full-brightness-toggle">https://curseforge.com/minecraft/mc-mods/full-brightness-toggle</a><br>&nbsp;&nbsp;Modrinth: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://modrinth.com/mod/full-brightness-toggle">https://modrinth.com/mod/full-brightness-toggle</a></p>
-<h2>Issue Tracker</h2>
-<p>To keep a better overview of all mods, the issue tracker is located in a separate repository.<br>&nbsp;&nbsp;For issues, ideas, suggestions or anything else, please follow this link:</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;-> <a href="https://serilum.com/url/issue-tracker">Issue Tracker</a></p>
-<h2>Pull Requests</h2>
-<p>Because of the way mod loader files are bundled into one jar, some extra information is needed to do a PR.<br>&nbsp;&nbsp;A wiki page entry about it is available here:</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;-> <a href="https://serilum.com/url/pull-requests">Pull Request Information</a></p>
-<h2>Mod Description</h2>
+<h2>Full Brightness Toggle</h2>
+<p><a href="https://github.com/Serilum/Full-Brightness-Toggle"><img src="https://serilum.com/assets/data/logo/full-brightness-toggle.png"></a></p><h2>Download</h2>
+<p>You can download Full Brightness Toggle on CurseForge and Modrinth:</p><p>&nbsp;&nbsp;CurseForge: &nbsp;&nbsp;<a href="https://curseforge.com/minecraft/mc-mods/full-brightness-toggle">https://curseforge.com/minecraft/mc-mods/full-brightness-toggle</a><br>&nbsp;&nbsp;Modrinth: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://modrinth.com/mod/full-brightness-toggle">https://modrinth.com/mod/full-brightness-toggle</a></p>
+<h2>Issue Tracker</h2>
+<p>To keep a better overview of all mods, the issue tracker is located in a separate repository.<br>&nbsp;&nbsp;For issues, ideas, suggestions or anything else, please follow this link:</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;-> <a href="https://serilum.com/url/issue-tracker">Issue Tracker</a></p>
+<h2>Pull Requests</h2>
+<p>Because of the way mod loader files are bundled into one jar, some extra information is needed to do a PR.<br>&nbsp;&nbsp;A wiki page entry about it is available here:</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;-> <a href="https://serilum.com/url/pull-requests">Pull Request Information</a></p>
+<h2>Mod Description</h2>
 <p style="text-align:center"><a href="https://serilum.com/" target="_blank" rel="nofollow"><img src="https://github.com/Serilum/.cdn/raw/main/description/header/header.png" alt="" width="838" height="400"></a></p>
 <p style="text-align:center"><a href="https://curseforge.com/members/serilum/projects" target="_blank" rel="nofollow"><img src="https://raw.githubusercontent.com/Serilum/.data-workflow/main/badges/svg/curseforge.svg" width="200"></a> <a href="https://modrinth.com/user/Serilum" target="_blank" rel="nofollow"><img src="https://raw.githubusercontent.com/Serilum/.data-workflow/main/badges/svg/modrinth.svg" width="200"></a> <a href="https://patreon.com/serilum" target="_blank" rel="nofollow"><img src="https://raw.githubusercontent.com/Serilum/.data-workflow/main/badges/svg/patreon.svg" width="200"></a> <a href="https://youtube.com/@serilum" target="_blank" rel="nofollow"><img src="https://raw.githubusercontent.com/Serilum/.data-workflow/main/badges/svg/youtube.svg" width="200"></a></p>
 <p><strong><span style="font-size:24px">Requires the library mod&nbsp;<a style="font-size:24px" href="https://curseforge.com/minecraft/mc-mods/collective" target="_blank" rel="nofollow">Collective</a>.</span></strong><br><br><strong>&nbsp;&nbsp;&nbsp;This mod is part of <span style="color:#006994"><a style="color:#006994" href="https://curseforge.com/minecraft/mc-mods/serilums-client-bundle" target="_blank" rel="nofollow">Serilum's Client Bundle</a></span> mod.</strong><br><span style="font-size:18px">Full Brightness Toggle is a client-side mod which allows players to instantly turn the brightness (gamma) to full with the press of a button. By default it's G, but this can be changed in Options -&gt; Controls. Created after reading a request from someone with impaired eyesight, who needed this feature to play the game. Don't use it on servers where it's not allowed. When in doubt, ask first.<br></span><span style="font-size:14px"><strong><br>The feature in action:</strong></span></p>
