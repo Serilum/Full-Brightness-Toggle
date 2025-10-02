@@ -2,12 +2,9 @@ package com.natamus.fullbrightnesstoggle;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.fullbrightnesstoggle.forge.events.ForgeKeyMappingRegister;
-import net.minecraftforge.client.event.RegisterKeyMappingsEvent;
 import com.natamus.fullbrightnesstoggle.forge.events.ForgeToggleEvent;
 import com.natamus.fullbrightnesstoggle.util.Reference;
 import net.minecraftforge.api.distmarker.Dist;
-import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.bus.BusGroup;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLLoadCompleteEvent;
@@ -29,7 +26,7 @@ public class ModForge {
 		BusGroup busGroup = modLoadingContext.getModBusGroup();
 
 		FMLLoadCompleteEvent.getBus(busGroup).addListener(this::loadComplete);
-		RegisterKeyMappingsEvent.getBus(busGroup).addListener(ForgeKeyMappingRegister::registerKeyBinding);
+		ModCommon.registerHotkeys();
 
 		setGlobalConstants();
 		ModCommon.init();
