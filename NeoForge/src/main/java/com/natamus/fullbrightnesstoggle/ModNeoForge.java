@@ -2,7 +2,6 @@ package com.natamus.fullbrightnesstoggle;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.fullbrightnesstoggle.neoforge.events.NeoForgeKeyMappingRegister;
 import com.natamus.fullbrightnesstoggle.neoforge.events.NeoForgeToggleEvent;
 import com.natamus.fullbrightnesstoggle.util.Reference;
 import net.neoforged.api.distmarker.Dist;
@@ -26,7 +25,7 @@ public class ModNeoForge {
 
 
 		modEventBus.addListener(this::loadComplete);
-		modEventBus.register(NeoForgeKeyMappingRegister.class);
+		ModCommon.registerHotkeys();
 
 		setGlobalConstants();
 		ModCommon.init();
