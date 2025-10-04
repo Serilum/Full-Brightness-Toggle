@@ -6,7 +6,7 @@ logoFile="icon.png"
 
 [[mods]]
 modId="fullbrightnesstoggle"
-version="4.4"
+version="4.5"
 displayName="Full Brightness Toggle"
 displayURL="https://serilum.com/mod/full-brightness-toggle"
 authors="Rick South"
@@ -22,7 +22,7 @@ If you would like to contribute too, check out https://serilum.com/donate. Appre
 [[dependencies.fullbrightnesstoggle]]
     modId="collective"
     mandatory=true
-    versionRange="[8.5,)"
+    versionRange="[8.8,)"
     ordering="NONE"
     side="BOTH"
 
