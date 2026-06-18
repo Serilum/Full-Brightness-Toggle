@@ -26,7 +26,7 @@ public class ToggleEvent {
 	}
 
 	public static void onHotkeyPress() {
-		if (mc.screen instanceof ChatScreen) {
+		if (mc.gui.screen()instanceof ChatScreen) {
 			return;
 		}
 
