@@ -43,7 +43,7 @@ subprojects {
 
         maven {
             name = "Serilum Maven"
-            url = "https://github.com/Serilum/.maven/raw/maven/"
+            url = "https://maven.serilum.com/"
         }
     }
     
