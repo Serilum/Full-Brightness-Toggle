@@ -91,6 +91,6 @@ tasks.withType(JavaCompile).configureEach {
 
 repositories {
     maven {
-        url = "https://github.com/Serilum/.maven/raw/maven/"
+        url = "https://maven.serilum.com/"
     }
 }

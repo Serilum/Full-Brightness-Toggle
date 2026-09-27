@@ -39,7 +39,7 @@ minecraft {
             mods {
                 modClientRun {
                     source sourceSets.main
-                    source project(":Common").sourceSets.main
+                    // source project(":Common").sourceSets.main
                 }
             }
         }
@@ -116,7 +116,7 @@ processResources {
 
 repositories {
     maven {
-        url = "https://github.com/Serilum/.maven/raw/maven/"
+        url = "https://maven.serilum.com/"
     }
 }
 
