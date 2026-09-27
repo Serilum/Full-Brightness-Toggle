@@ -5,6 +5,7 @@ import com.natamus.collective.globalcallbacks.MainMenuLoadedCallback;
 import com.natamus.collective.services.Services;
 import com.natamus.fullbrightnesstoggle.data.Constants;
 import com.natamus.fullbrightnesstoggle.events.ToggleEvent;
+import com.mojang.blaze3d.platform.InputConstants;
 
 public class ModCommon {
 
@@ -19,6 +20,6 @@ public class ModCommon {
 	}
 
 	public static void registerHotkeys() {
-		Constants.hotkey = Services.REGISTERKEYMAPPING.registerKeyMapping("fullbrightnesstoggle.key.togglebrightness", 71, "key.categories.misc");
+		Constants.hotkey = Services.REGISTERKEYMAPPING.registerKeyMapping("fullbrightnesstoggle.key.togglebrightness", InputConstants.KEY_G,"key.categories.misc");
 	}
 }
