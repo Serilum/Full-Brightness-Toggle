@@ -1,8 +1,8 @@
-package com.natamus.fullbrightnesstoggle;
+package com.serilum.fullbrightnesstoggle;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.fullbrightnesstoggle.util.Reference;
+import com.serilum.fullbrightnesstoggle.util.Reference;
 import net.fabricmc.api.ModInitializer;
 
 public class ModFabric implements ModInitializer {

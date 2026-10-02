@@ -1,7 +1,7 @@
-package com.natamus.fullbrightnesstoggle.forge.events;
+package com.serilum.fullbrightnesstoggle.forge.events;
 
-import com.natamus.fullbrightnesstoggle.data.Constants;
-import com.natamus.fullbrightnesstoggle.events.ToggleEvent;
+import com.serilum.fullbrightnesstoggle.data.Constants;
+import com.serilum.fullbrightnesstoggle.events.ToggleEvent;
 import net.minecraftforge.client.event.InputEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 
