@@ -1,10 +1,10 @@
-package com.natamus.fullbrightnesstoggle;
+package com.serilum.fullbrightnesstoggle;
 
 
 import com.natamus.collective.globalcallbacks.MainMenuLoadedCallback;
 import com.natamus.collective.services.Services;
-import com.natamus.fullbrightnesstoggle.data.Constants;
-import com.natamus.fullbrightnesstoggle.events.ToggleEvent;
+import com.serilum.fullbrightnesstoggle.data.Constants;
+import com.serilum.fullbrightnesstoggle.events.ToggleEvent;
 import com.mojang.blaze3d.platform.InputConstants;
 
 public class ModCommon {

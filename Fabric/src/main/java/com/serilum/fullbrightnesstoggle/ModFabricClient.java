@@ -1,9 +1,9 @@
-package com.natamus.fullbrightnesstoggle;
+package com.serilum.fullbrightnesstoggle;
 
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.fullbrightnesstoggle.data.Constants;
-import com.natamus.fullbrightnesstoggle.events.ToggleEvent;
-import com.natamus.fullbrightnesstoggle.util.Reference;
+import com.serilum.fullbrightnesstoggle.data.Constants;
+import com.serilum.fullbrightnesstoggle.events.ToggleEvent;
+import com.serilum.fullbrightnesstoggle.util.Reference;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
 

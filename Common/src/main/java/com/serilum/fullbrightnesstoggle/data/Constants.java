@@ -1,4 +1,4 @@
-package com.natamus.fullbrightnesstoggle.data;
+package com.serilum.fullbrightnesstoggle.data;
 
 import net.minecraft.client.KeyMapping;
 
