@@ -1,4 +1,4 @@
-package com.natamus.fullbrightnesstoggle.util;
+package com.serilum.fullbrightnesstoggle.util;
 
 import com.natamus.collective.functions.DataFunctions;
 

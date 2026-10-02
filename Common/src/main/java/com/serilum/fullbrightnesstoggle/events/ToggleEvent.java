@@ -1,7 +1,7 @@
-package com.natamus.fullbrightnesstoggle.events;
+package com.serilum.fullbrightnesstoggle.events;
 
 import com.natamus.collective.functions.GameSettingsFunctions;
-import com.natamus.fullbrightnesstoggle.util.Util;
+import com.serilum.fullbrightnesstoggle.util.Util;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.Options;
 import net.minecraft.client.gui.screens.ChatScreen;

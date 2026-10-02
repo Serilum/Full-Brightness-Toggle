@@ -1,7 +1,7 @@
-package com.natamus.fullbrightnesstoggle.neoforge.events;
+package com.serilum.fullbrightnesstoggle.neoforge.events;
 
-import com.natamus.fullbrightnesstoggle.data.Constants;
-import com.natamus.fullbrightnesstoggle.events.ToggleEvent;
+import com.serilum.fullbrightnesstoggle.data.Constants;
+import com.serilum.fullbrightnesstoggle.events.ToggleEvent;
 import net.neoforged.neoforge.client.event.InputEvent;
 import net.neoforged.bus.api.SubscribeEvent;
 
