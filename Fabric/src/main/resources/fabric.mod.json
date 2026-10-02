@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
   "id": "fullbrightnesstoggle",
-  "version": "4.6",
+  "version": "4.7",
 
   "name": "Full Brightness Toggle",
   "description": "[Client] Press G to instantly toggle the brightness/gamma in-game to full.",
-  "authors": [ "Rick South" ],
+  "authors": [ "Serilum" ],
   "contact": {
     "homepage": "https://serilum.com/mod/full-brightness-toggle",
     "sources": "https://github.com/Serilum/Full-Brightness-Toggle",
     "issues": "https://github.com/Serilum/.issue-tracker/labels/Mod:%20Full%20Brightness%20Toggle"
   },
 
-  "license": "All Right Reserved",
+  "license": "All Rights Reserved",
   "icon": "icon.png",
 
   "environment": "*",
-  "entrypoints": { "main": [ "com.natamus.fullbrightnesstoggle.ModFabric" ], "client": [ "com.natamus.fullbrightnesstoggle.ModFabricClient" ] },
+  "entrypoints": { "main": [ "com.serilum.fullbrightnesstoggle.ModFabric" ], "client": [ "com.serilum.fullbrightnesstoggle.ModFabricClient" ] },
 
   "depends": {
     "fabricloader": ">=0.18.0",
@@ -38,7 +38,7 @@
 	  " ",
 	  "Thank you very much to my Membership sponsors for supporting the development of this mod!",
 	  " ",
-	  "If you would like to contribute too, check out https://serilum.com/donate.",
+	  "If you would like to contribute too, check out https://serilum.com/donate",
 	  " ",
 	  "Membership sponsors:",
 	  " Andrean Olgo",
