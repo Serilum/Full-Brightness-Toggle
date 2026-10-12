@@ -55,3 +55,18 @@ subprojects {
         duplicatesStrategy 'include'
     }
 }
+
+def runTasks = [
+    runFabricClient  : ':Fabric:runClient',
+    runFabricServer  : ':Fabric:runServer',
+    runForgeClient   : ':Forge:Client',
+    runForgeServer   : ':Forge:Server',
+    runNeoForgeClient: ':NeoForge:runClient',
+    runNeoForgeServer: ':NeoForge:runServer',
+]
+runTasks.each { taskName, runTask ->
+    tasks.register(taskName) {
+        group = 'run'
+        dependsOn(runTask)
+    }
+}
