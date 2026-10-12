@@ -8,6 +8,8 @@ import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
 
 public class ModFabricClient implements ClientModInitializer {
+	private static boolean hotkeyWasHeld = false;
+
 	@Override
 	public void onInitializeClient() {
 		if (!ShouldLoadCheck.shouldLoad(Reference.MOD_ID)) {
@@ -17,10 +19,17 @@ public class ModFabricClient implements ClientModInitializer {
 		ModCommon.registerHotkeys();
 
 		ClientTickEvents.END_CLIENT_TICK.register(client -> {
-			while (Constants.hotkey.isDown()) {
-				ToggleEvent.onHotkeyPress();
-				Constants.hotkey.setDown(false);
+			boolean hotkeyPressed = false;
+			while (Constants.hotkey.consumeClick()) {
+				hotkeyPressed = true;
 			}
-		});  	
+
+			// Holding the key sends repeat clicks, which should not toggle again.
+			if (hotkeyPressed && !hotkeyWasHeld) {
+				ToggleEvent.onHotkeyPress();
+			}
+
+			hotkeyWasHeld = Constants.hotkey.isDown();
+		});
 	}
 }
