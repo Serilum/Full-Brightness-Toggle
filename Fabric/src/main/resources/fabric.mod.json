@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "fullbrightnesstoggle",
-  "version": "4.8",
+  "version": "4.9",
 
   "name": "Full Brightness Toggle",
   "description": "[Client] Press G to instantly toggle the brightness/gamma in-game to full.",
@@ -17,13 +17,16 @@
 
   "environment": "*",
   "entrypoints": { "main": [ "com.serilum.fullbrightnesstoggle.ModFabric" ], "client": [ "com.serilum.fullbrightnesstoggle.ModFabricClient" ] },
+  "mixins": [
+    "fullbrightnesstoggle.mixins.json"
+  ],
 
   "depends": {
     "fabricloader": ">=0.18.0",
     "fabric-api": "*",
     "minecraft": ">=26.3",
     "java": ">=25",
-    "collective": ">=8.47"
+    "collective": ">=8.48"
   },
 
   "custom": {
