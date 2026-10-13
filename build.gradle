@@ -10,18 +10,3 @@ tasks.configureEach { task ->
         task.duplicatesStrategy = DuplicatesStrategy.INCLUDE
     }
 }
-
-def runTasks = [
-    runFabricClient  : ':Fabric:runClient',
-    runFabricServer  : ':Fabric:runServer',
-    runForgeClient   : ':Forge:runClient',
-    runForgeServer   : ':Forge:runServer',
-    runNeoForgeClient: ':NeoForge:runClient',
-    runNeoForgeServer: ':NeoForge:runServer',
-]
-runTasks.each { taskName, runTask ->
-    tasks.register(taskName) {
-        group = 'run'
-        dependsOn(runTask)
-    }
-}
