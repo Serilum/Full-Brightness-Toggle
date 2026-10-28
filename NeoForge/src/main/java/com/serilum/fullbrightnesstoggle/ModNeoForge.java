@@ -1,9 +1,9 @@
-package com.natamus.fullbrightnesstoggle;
+package com.serilum.fullbrightnesstoggle;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.fullbrightnesstoggle.neoforge.events.NeoForgeToggleEvent;
-import com.natamus.fullbrightnesstoggle.util.Reference;
+import com.serilum.fullbrightnesstoggle.neoforge.events.NeoForgeToggleEvent;
+import com.serilum.fullbrightnesstoggle.util.Reference;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
